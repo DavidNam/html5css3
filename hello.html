@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <title>Hello world!</title>
+    <style>
+    .inline-block {
+        display: inline-block;
+        vertical-align: middle; /* inline-block 요소 수직정렬 */
+        border: 3px solid red;
+        font-size: 16px;
+    }
+    .box1 {
+        width:300px;
+        height: 70px;
+    }
+    .box2 {
+        width: 300px;
+        height: 150px;
+    }
+    .wrapper {
+        font-size: 0;
+        visibility: hidden;
+    }
+    </style>
+</head>
+<body>
+    <h1>Hello world</h1>
+    <p>안녕하세요 <mark>html!</mark></p>
+    <p>removed text = <del>here 취소선</del></p>
+    <p>inserted text = <ins>blah blah 밑줄</ins></p>
+    <p>this is <sub>subscripted text</sub> <sup>superscripted text</sup></p>
+    <pre>
+        // preformatted text
+        var myArray = [];
+        console.log(myArray);
+    </pre>
+    <p>수평줄 추가</p>
+    <p>Novel said <q>blah blah~~</q></p>
+    <hr>
+    <blockquote>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </blockquote>
+    <a href="https://www.google.com" target="_blank">google</a>
+    <h1>unordered list</h1>
+    <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+    </ul>
+    <h1>ordered list</h1>
+    <ol>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+    </ol>
+    <ol type="I" start="5" reversed>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+    </ol>
+    <fieldset>
+        <legend>Login</legend>
+        <input type="text" value="username">
+        <input type="text" value="password">
+    </fieldset>
+    <div class="inline-block box1">inline-block height 70px</div>
+    <div class="inline-block box2">inline-block height 150px</div>
+    <div class="wrapper">
+        <div class="inline-block box1">inline-block height 70px</div>
+        <div class="inline-block box2">inline-block height 150px</div>
+    </div>
+</body>
+</html>
